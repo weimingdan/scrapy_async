@@ -1,0 +1,3 @@
+import time
+
+startTime = None
