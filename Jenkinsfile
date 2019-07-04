@@ -4,7 +4,7 @@ pipeline {
     stage('检出') {
       steps {
         checkout([$class: 'GitSCM', branches: [[name: env.GIT_BUILD_REF]], 
-                                                                    userRemoteConfigs: [[url: env.GIT_REPO_URL, credentialsId: env.CREDENTIALS_ID]]])
+                                                                            userRemoteConfigs: [[url: env.GIT_REPO_URL, credentialsId: env.CREDENTIALS_ID]]])
       }
     }
     stage('构建') {
@@ -42,7 +42,7 @@ pipeline {
         }
         stage('pytest') {
           steps {
-            sh 'pip install pytest'
+            sh 'pip3 install pytest'
             sh 'pytest'
           }
         }
