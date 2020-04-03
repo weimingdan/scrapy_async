@@ -42,10 +42,10 @@ class PuppeteerMiddleware:
 
         middleware = cls()
         middleware.browser = await launch(headless=False,
-                                          default_viewport=None,
-                                          executable_path="D:/Program Files/BitWebV3.0/Chrome/chrome.exe")
+                                          executablePath="D:/Program Files/BitWebV3.0/Chrome/chrome.exe")
         for i in range(5):
             page = await middleware.browser.newPage()
+            await page.setViewport({'width':0, 'height':0})
             info = PageInfo(page)
             middleware.pages.append(info)
         crawler.signals.connect(middleware.spider_closed, signals.spider_closed)
@@ -153,8 +153,8 @@ class PuppeteerMiddleware:
     def process_request(self, request, spider):
         """Check if the Request should be handled by Puppeteer"""
         print(f'start: {request.url}')
-        if not isinstance(request, PuppeteerRequest):
-            return None
+        # if not isinstance(request, PuppeteerRequest):
+        #     return None
         response = as_deferred(self._process_request(request, spider))
 
         return response

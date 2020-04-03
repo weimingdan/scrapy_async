@@ -17,5 +17,7 @@ D
 scrapy_async/data.py,e\9\e97369fa3271b63d59f2fc9c1fc589a581196acc
 U
 %scrapy_async/puppeteer/middlewares.py,a\7\a78b228399a56f6c8e57c19d058d0ee3f288f623
-F
-test_download_video.py,5\f\5ffd9c92398a6d37551c261cbdb4d187c32b59c6
+A
+tests/__init__.py,8\e\8e911f6351f3fa0cd30fc10a701473fbb56707e6
+L
+tests/test_download_video.py,c\4\c4fb84fe22295f02f458c8ecc5698c4652613a69
