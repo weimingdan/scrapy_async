@@ -1,7 +1,9 @@
 
-;python:S125S"Remove this commented out code.(šª‘Øýÿÿÿÿ
-@python:S1481e"(Remove the unused local variable "site".(Ò¤û¥
-6python:S125c"Remove this commented out code.(íñèÂ
-;python:S125V"Remove this commented out code.(€ì—úþÿÿÿÿ
-<python:S125"Remove this commented out code.(ß—“ 8‘ÕÎî¸-
-6python:S125f"Remove this commented out code.(ÃÅ‘ß
+=python:S125i"Remove this commented out code.(ÃÅ‘ß8çÍö“.
+Bpython:S125"Remove this commented out code.(Ìà¤³üÿÿÿÿ8çÍö“.
+=python:S125f"Remove this commented out code.(íñèÂ8çÍö“.
+Gpython:S1481h"(Remove the unused local variable "site".(Ò¤û¥8çÍö“.
+Bpython:S125Y"Remove this commented out code.(€ì—úþÿÿÿÿ8çÍö“.
+<python:S125"Remove this commented out code.(ß—“ 8çÍö“.
+ypython:S1542c"URename function "startCrawler" to match the regular expression ^[a-z_][a-z0-9_]{2,}$.(“¢­ìýÿÿÿÿ8çÍö“.
+Bpython:S125V"Remove this commented out code.(šª‘Øýÿÿÿÿ8çÍö“.

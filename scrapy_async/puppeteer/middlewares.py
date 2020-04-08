@@ -85,7 +85,7 @@ class PuppeteerMiddleware:
         page = pageInfo.page
         print(f'load: {request.url}')
 
-        response = await page.goto(request.url)
+        response = await page.goto(request.url, timeout=100000)
         content = await page.content()
         url = page.url
         pageInfo.state = PageState.Idle
@@ -150,14 +150,34 @@ class PuppeteerMiddleware:
             request=request
         )
 
-    def process_request(self, request, spider):
+    def test_asyncdef(self):
+        resp = HtmlResponse('http://example.com/index.html', encoding='utf-8', body='qwer')
+
+    async def wait_finished(self):
+        await asyncio.sleep(2)
+
+    async def process_request(self, request, spider):
         """Check if the Request should be handled by Puppeteer"""
         print(f'start: {request.url}')
+        # await self.wait_finished()
+        return self.test_asyncdef()
         # if not isinstance(request, PuppeteerRequest):
         #     return None
-        response = as_deferred(self._process_request(request, spider))
+        pageInfo = await self.get_idle_page()
+        page = pageInfo.page
+        print(f'load: {request.url}')
 
-        return response
+        response = await page.goto(request.url, timeout=100000)
+        content = await page.content()
+        url = page.url
+        pageInfo.state = PageState.Idle
+        print(f'finished: {request.url}')
+        return HtmlResponse(
+            url,
+            body=str.encode(content),
+            encoding='utf-8',
+            request=request
+        )
 
     async def _spider_closed(self):
         await self.browser.close()

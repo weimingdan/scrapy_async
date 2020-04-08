@@ -1,6 +1,9 @@
-import asyncio
-from twisted.internet import asyncioreactor
-asyncioreactor.install(asyncio.get_event_loop())
+# import asyncio
+# from twisted.internet import asyncioreactor
+# asyncioreactor.install(asyncio.get_event_loop())
+
+from scrapy.utils.reactor import install_reactor
+install_reactor('twisted.internet.asyncioreactor.AsyncioSelectorReactor')
 
 # Need to install the asyncio reactor before importing Scrapy (?)
 # Maybe there is a cleaner way to to it?

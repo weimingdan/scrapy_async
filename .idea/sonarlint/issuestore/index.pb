@@ -21,3 +21,6 @@ A
 tests/__init__.py,8\e\8e911f6351f3fa0cd30fc10a701473fbb56707e6
 L
 tests/test_download_video.py,c\4\c4fb84fe22295f02f458c8ecc5698c4652613a69
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
