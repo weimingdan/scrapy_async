@@ -49,3 +49,6 @@ class TestBaiduSpider(object):
             raise IOError("Error occurred!!")
         else:
             return "HOHO"
+
+    def test_assert(self):
+        assert False
