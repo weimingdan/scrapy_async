@@ -1,10 +1,10 @@
 
+vpython:S117T"YRename this local variable "pageInfo" to match the regular expression ^[_a-z][a-z0-9_]*$.(¤χύ98οσ…φ“.
 Qpython:S1481ª",Remove the unused local variable "response".(ΏΙ™ώÿÿÿÿ8’κϊ“.
-fpython:S1763¦"GDelete this unreachable code or refactor the code to make it reachable.(¤χύ98‰ι‰ϋ“.
+wpython:S117¦"YRename this local variable "pageInfo" to match the regular expression ^[_a-z][a-z0-9_]*$.(¤χύ98’κϊ“.
+qpython:S1854X"MRemove this assignment to local variable 'response'; the value is never used.(ΏΙ™ώÿÿÿÿ8οσ…φ“.
+Ipython:S1481."%Remove the unused local variable "i".(ΟµυΆύÿÿÿÿ8οσ…φ“.
 fpython:S1763f"GDelete this unreachable code or refactor the code to make it reachable.(ύ•Υ£8οσ…φ“.
+fpython:S1763¦"GDelete this unreachable code or refactor the code to make it reachable.(¤χύ98‰ι‰ϋ“.
 >python:S125¤"Remove this commented out code.(Άΐ8οσ…φ“.
 Mpython:S1481"(Remove the unused local variable "resp".(·±Χÿÿÿÿÿ8ª’ύω“.
-qpython:S1854X"MRemove this assignment to local variable 'response'; the value is never used.(ΏΙ™ώÿÿÿÿ8οσ…φ“.
-vpython:S117T"YRename this local variable "pageInfo" to match the regular expression ^[_a-z][a-z0-9_]*$.(¤χύ98οσ…φ“.
-wpython:S117¦"YRename this local variable "pageInfo" to match the regular expression ^[_a-z][a-z0-9_]*$.(¤χύ98’κϊ“.
-Ipython:S1481."%Remove the unused local variable "i".(ΟµυΆύÿÿÿÿ8οσ…φ“.

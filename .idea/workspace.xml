@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa938854-25c8-4e0c-bdc2-90090cfc1e2b" name="Default Changelist" comment="use scrapy async">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="aa938854-25c8-4e0c-bdc2-90090cfc1e2b" name="Default Changelist" comment="add idea to gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f086b210d5e04558c8ba44cff13243f772522f6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f086b210d5e04558c8ba44cff13243f772522f6" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a78b228399a56f6c8e57c19d058d0ee3f288f623" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a78b228399a56f6c8e57c19d058d0ee3f288f623" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6f3bfeda2383e981f09e45ec6955f6d56ec02ae" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6f3bfeda2383e981f09e45ec6955f6d56ec02ae" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_download_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_download_video.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +53,10 @@
   <component name="MacroExpansionManager">
     <option name="directoryName" value="SVrCTHlI" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="120" />
-    <option name="y" value="20" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
-  </component>
   <component name="ProjectId" id="1a1FUZzF7pH23ZkAFAnew4Eqisr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -59,14 +73,14 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
-    <property name="settings.editor.selected.configurable" value="kite.configurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\MyCondaTest\async_scrapy\scrapy_async\tests" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python tests.pytest for test_download_video.TestBaiduSpider.test_retry">
     <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="scrapy_async" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -89,14 +103,82 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest for test_download_video.TestBaiduSpider" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="scrapy_async" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_download_video.TestBaiduSpider&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_download_video.TestBaiduSpider.test_false" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="scrapy_async" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_download_video.TestBaiduSpider.test_false&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_download_video.TestBaiduSpider.test_parse_time" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="scrapy_async" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_download_video.TestBaiduSpider.test_parse_time&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_download_video.TestBaiduSpider.test_retry" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="scrapy_async" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_download_video.TestBaiduSpider.test_retry&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_download_video.TestBaiduSpider.test_retry" />
+        <item itemvalue="Python tests.pytest for test_download_video.TestBaiduSpider.test_parse_time" />
+        <item itemvalue="Python tests.pytest for test_download_video.TestBaiduSpider.test_false" />
+        <item itemvalue="Python tests.pytest for test_download_video.TestBaiduSpider" />
         <item itemvalue="Python.start" />
       </list>
     </recent_temporary>
   </component>
   <component name="RustProjectSettings">
-    <option name="toolchainHomeDirectory" value="G:/rust/cargo/bin" />
+    <option name="toolchainHomeDirectory" value="$PROJECT_DIR$/../../../rust/cargo/bin" />
     <option name="version" value="2" />
   </component>
   <component name="StructureViewFactory">
@@ -166,7 +248,21 @@
       <option name="project" value="LOCAL" />
       <updated>1586312097462</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="use scrapy async">
+      <created>1586312490202</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1586312490202</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add idea to gitignore">
+      <created>1586312689695</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1586312689695</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -180,9 +276,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -201,55 +295,61 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add one test" />
     <MESSAGE value="add one test ..." />
     <MESSAGE value="push push push" />
     <MESSAGE value="use scrapy async" />
-    <option name="LAST_COMMIT_MESSAGE" value="use scrapy async" />
+    <MESSAGE value="add idea to gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="add idea to gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="593" y="24" key="CommitChangelistDialog2" timestamp="1586312520878">
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586399370254">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="593" y="24" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586312520878" />
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom" timestamp="1586248083484">
+    <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1586399370254" />
+    <state x="593" y="0" key="CommitChangelistDialog2" timestamp="1586404119049">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586248083484" />
-    <state width="1877" height="261" key="GridCell.Tab.0.center" timestamp="1586248083484">
+    <state x="593" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1586404119049" />
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom" timestamp="1586399613540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586248083484" />
-    <state width="1877" height="261" key="GridCell.Tab.0.left" timestamp="1586248083484">
+    <state width="1877" height="324" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586399613540" />
+    <state width="1877" height="324" key="GridCell.Tab.0.center" timestamp="1586399613540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586248083484" />
-    <state width="1877" height="261" key="GridCell.Tab.0.right" timestamp="1586248083484">
+    <state width="1877" height="324" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586399613540" />
+    <state width="1877" height="324" key="GridCell.Tab.0.left" timestamp="1586399613540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="261" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586248083484" />
-    <state width="1877" height="324" key="GridCell.Tab.1.bottom" timestamp="1585907041387">
+    <state width="1877" height="324" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586399613540" />
+    <state width="1877" height="324" key="GridCell.Tab.0.right" timestamp="1586399613540">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585907041387" />
-    <state width="1877" height="324" key="GridCell.Tab.1.center" timestamp="1585907041386">
+    <state width="1877" height="324" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586399613540" />
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom" timestamp="1586399613541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585907041386" />
-    <state width="1877" height="324" key="GridCell.Tab.1.left" timestamp="1585907041386">
+    <state width="1877" height="324" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586399613541" />
+    <state width="1877" height="324" key="GridCell.Tab.1.center" timestamp="1586399613541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585907041386" />
-    <state width="1877" height="324" key="GridCell.Tab.1.right" timestamp="1585907041386">
+    <state width="1877" height="324" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586399613541" />
+    <state width="1877" height="324" key="GridCell.Tab.1.left" timestamp="1586399613541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="324" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585907041386" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1586310889770">
+    <state width="1877" height="324" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586399613541" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right" timestamp="1586399613541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586310889770" />
+    <state width="1877" height="324" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586399613541" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1586481732478">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586481732478" />
     <state x="552" y="249" key="Vcs.Push.Dialog.v2" timestamp="1585896010812">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -263,12 +363,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://G:/anaconda/envs/async_scrapy/Lib/site-packages/scrapy_puppeteer/middlewares.py</url>
+          <url>file://$PROJECT_DIR$/../../../anaconda/envs/async_scrapy/Lib/site-packages/scrapy_puppeteer/middlewares.py</url>
           <line>45</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://G:/anaconda/envs/async_scrapy/Lib/site-packages/scrapy_puppeteer/middlewares.py</url>
+          <url>file://$PROJECT_DIR$/../../../anaconda/envs/async_scrapy/Lib/site-packages/scrapy_puppeteer/middlewares.py</url>
           <line>83</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
@@ -286,6 +386,11 @@
           <url>file://$PROJECT_DIR$/scrapy_async/commonMiddleware.py</url>
           <line>113</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/test_download_video.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
