@@ -26,6 +26,7 @@ class TestBaiduSpider(object):
         local = arrow.utcnow()
         uu = local.shift(hour=1)
         print(uu)
+
         print(local.format())
         print(local.humanize(locale='zh_CN'))
         assert True
