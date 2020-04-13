@@ -19,12 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aa938854-25c8-4e0c-bdc2-90090cfc1e2b" name="Default Changelist" comment="add idea to gitignore">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f086b210d5e04558c8ba44cff13243f772522f6" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f086b210d5e04558c8ba44cff13243f772522f6" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a78b228399a56f6c8e57c19d058d0ee3f288f623" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/7/a78b228399a56f6c8e57c19d058d0ee3f288f623" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6f3bfeda2383e981f09e45ec6955f6d56ec02ae" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f6f3bfeda2383e981f09e45ec6955f6d56ec02ae" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_download_video.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_download_video.py" afterDir="false" />
+    <list default="true" id="aa938854-25c8-4e0c-bdc2-90090cfc1e2b" name="Default Changelist" comment="commit something">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -262,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586312689695</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="commit something">
+      <created>1586767680787</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1586767680787</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -303,7 +306,8 @@
     <MESSAGE value="push push push" />
     <MESSAGE value="use scrapy async" />
     <MESSAGE value="add idea to gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="add idea to gitignore" />
+    <MESSAGE value="commit something" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit something" />
   </component>
   <component name="WindowStateProjectService">
     <state x="640" y="255" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1586399370254">
