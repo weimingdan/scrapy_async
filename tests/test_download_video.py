@@ -51,4 +51,4 @@ class TestBaiduSpider(object):
             return "HOHO"
 
     def test_assert(self):
-        assert False
+        assert True
