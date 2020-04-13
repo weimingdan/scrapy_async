@@ -39,6 +39,7 @@ class TestBaiduSpider(object):
     def test_retry(self):
         print(self.get_info())
         print(123)
+        print(123)
         assert True
 
     @retry
