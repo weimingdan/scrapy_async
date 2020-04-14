@@ -24,8 +24,6 @@ class TestBaiduSpider(object):
         cc = arrow.get(time_str)
         print(cc)
         local = arrow.utcnow()
-        uu = local.shift(hour=1)
-        print(uu)
 
         print(local.format())
         print(local.humanize(locale='zh_CN'))
