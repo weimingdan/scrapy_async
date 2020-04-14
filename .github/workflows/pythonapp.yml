@@ -40,7 +40,7 @@ jobs:
     - name: Test with pytest
       run: |
         pip install pytest
-        pytest --html=report.html --cov=./ --cov-report=xml
+        pytest --html=report/report.html --cov=./ --cov-report=xml
     - name: Upload coverage to Codecov
       uses: codecov/codecov-action@v1
       with:
@@ -53,4 +53,4 @@ jobs:
       uses: actions/upload-artifact@v1
       with:
         name: test-report
-        path: ./report.html
+        path: ./report
