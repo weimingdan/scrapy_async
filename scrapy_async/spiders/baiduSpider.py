@@ -19,8 +19,8 @@ class BaiduSpider(Spider):
         #     # https://news.ycombinator.com/news?p=
         #     # https://tieba.baidu.com/p/6161244444?pn=
         #     urls.append(f"https://vmaig.com/article/OllyDbg_use_study_{0 if i<9 else ''}{i+1}.html")
+        urls.append('https://www.qq.com')
         urls.append('https://www.baidu.com')
-        # urls.append('https://www.qq.com')
         data.startTime = time.time()
         self.start_urls = urls
 

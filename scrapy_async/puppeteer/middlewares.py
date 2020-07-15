@@ -3,6 +3,7 @@
 import asyncio
 import logging
 from enum import Enum
+import time
 
 from pyppeteer import launch
 from scrapy import signals
@@ -42,8 +43,9 @@ class PuppeteerMiddleware:
 
         middleware = cls()
         middleware.browser = await launch(headless=False,
-                                          executablePath="D:/Program Files/BitWebV3.0/Chrome/chrome.exe")
-        for i in range(5):
+                                          executablePath="D:/Program Files/BitWebV3.0/Chrome/chrome.exe",
+                                          args=['--disable-dev-shm-usage'])
+        for i in range(2):
             page = await middleware.browser.newPage()
             await page.setViewport({'width':0, 'height':0})
             info = PageInfo(page)
@@ -150,27 +152,18 @@ class PuppeteerMiddleware:
             request=request
         )
 
-    def test_asyncdef(self):
-        resp = HtmlResponse('http://example.com/index.html', encoding='utf-8', body='qwer')
-
-    async def wait_finished(self):
-        await asyncio.sleep(2)
-
     async def process_request(self, request, spider):
         """Check if the Request should be handled by Puppeteer"""
         print(f'start: {request.url}')
-        # await self.wait_finished()
-        return self.test_asyncdef()
-        # if not isinstance(request, PuppeteerRequest):
-        #     return None
-        pageInfo = await self.get_idle_page()
-        page = pageInfo.page
+        page_info = await self.get_idle_page()
+        page = page_info.page
         print(f'load: {request.url}')
-
         response = await page.goto(request.url, timeout=100000)
         content = await page.content()
+        dd = int(round(time.time() * 1000))
+        screenshot = await page.screenshot(path=f"H:/{dd}.png", fullPage=True)
         url = page.url
-        pageInfo.state = PageState.Idle
+        page_info.state = PageState.Idle
         print(f'finished: {request.url}')
         return HtmlResponse(
             url,
