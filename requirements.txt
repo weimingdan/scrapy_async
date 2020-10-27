@@ -14,7 +14,7 @@ click==7.1.2
 colorama==0.4.1
 constantly==15.1.0
 coverage==5.1
-cryptography==2.7
+cryptography==3.2
 cssselect==1.0.3
 Faker==4.0.2
 fastapi==0.54.1
